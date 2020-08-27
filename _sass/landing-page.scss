@@ -32,12 +32,13 @@
 }
 
 .hero {
+	box-sizing: border-box;
 	color: #ffffff;
 	text-align: center;
 	background: rgb(146,15,20);
 	background: linear-gradient(90deg, rgba(146,15,20,1) 0%, rgba(193,23,30,1) 42%, rgba(129,12,17,1) 100%);
 	padding-top: 50px;
-	height: 100vh;
+	height: calc(100vh - 73px);
 
 	p {
 		color: #fff;
@@ -68,5 +69,15 @@
 
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
+	}
+}
+
+.container {
+	.text {
+		.list {
+			li {
+				margin-bottom: 1rem;
+			}
+		}
 	}
 }

@@ -137,8 +137,10 @@ blockquote:before {
 }
 
 .page {
+	box-sizing: border-box;
 	margin-bottom: 0;
 	padding-bottom: 80px;
+	min-height: calc(100vh - 73px);
 }
 
 .center-text {

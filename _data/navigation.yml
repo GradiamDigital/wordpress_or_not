@@ -1,24 +1,16 @@
-- name: Pricing
-  link: /pricing/
+- name: Projekty są różne
+  link: /projekty-sa-rozne/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: Myśleć nieszablonowo
+  link: /myslec-nieszablonowo/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
+- name: Wiele możliwości
+  link: /wiele-mozliwosci/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
+- name: "Alleluja i do przodu"
+  link: /alleluja-i-do-przodu/
   new_window: false
   highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
-  highlight: true
